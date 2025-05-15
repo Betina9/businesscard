@@ -1,5 +1,22 @@
 body {
+  margin: 20px;
 }
-content {
+.card {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
   display: flex;
+  justify-content: space-around;
+}
+.img {
+  width: 150px;
+}
+.text {
+  font-style: italic;
+  width: 200px;
+  text-align: center;
+}
+.border {
+  border: 1px solid grey;
 }
